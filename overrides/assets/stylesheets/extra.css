@@ -52,3 +52,9 @@
 .contact-form button:hover {
   background: var(--md-accent-fg-color--light);
 }
+
+.center-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
