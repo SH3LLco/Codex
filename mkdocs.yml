@@ -1,0 +1,187 @@
+# Site info
+site_name: Codex
+site_url: https://sh3ll.co
+site_author: SH3LL
+site_description: >-
+  A-Z Cybersecurity, Networking, Research, and References.
+
+# Repo
+repo_name: SH3LLco/Codex
+repo_url: https://github.com/SH3LLco/Codex
+
+# Copyright
+copyright: >
+  Copyright &copy; 2025 SH3LL -
+
+  <a href="#__consent">[ Cookie Settings ]</a>
+
+# Config
+theme:
+  name: material
+  custom_dir: overrides
+  features:
+    - announce.dismiss
+    - content.action.edit
+    - content.action.view
+    - content.code.annotate
+    - content.code.copy
+    - content.code.select
+    - content.footnote.tooltips
+    - content.tabs.link
+    - content.tooltips
+    - content.tags
+    - navigation.footer
+    - navigation.path
+    - navigation.indexes
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.prune
+    - navigation.instant.preview
+    - navigation.tabs
+    - navigation.top
+    - navigation.tracking
+    - search.highlight
+    - search.share
+    - search.suggest
+    - search.index
+    - toc.follow
+  palette:
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: custom
+      accent: indigo
+  font:
+    text: Roboto
+    code: Roboto Mono
+  favicon: assets/images/favicon.png
+  icon:
+    logo: assets/logo
+
+# Plugins
+plugins:
+  - search:
+      separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
+  - minify:
+      minify_html: true
+  - tags
+  - awesome-pages
+  - redirects
+  - exclude:
+      glob:
+        - ".obsidian/*"
+        - "Private/*"
+        - "Workshop/*"
+        - ".DS_Store"
+  - mermaid2
+  - charts
+  - privacy
+  - social
+  - offline
+  - meta
+  - optimize
+  - print-site
+
+# Extra
+extra:
+  analytics:
+    provider: google
+    property: G-Y7WM770MNT
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/SH3LLco
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/infophreak
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/gino-f-b179341ba/
+    - icon: fontawesome/solid/blog
+      link: https://infophreak.com/author/sh3ll/
+  search:
+    indexing: full
+  generator: false
+  consent:
+    title: Cookie consent
+    description: >-
+      We use cookies to recognize your repeated visits and preferences, as well
+      as to measure the effectiveness of our documentation and whether users
+      find what they're searching for. With your consent, you're helping us to
+      make our documentation better.
+    actions:
+      - accept
+      - manage
+
+# Extensions
+markdown_extensions:
+  - tables
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink:
+      normalize_issue_symbols: true
+      repo_url_shorthand: true
+      user: SH3LLco
+      repo: Codex
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.snippets
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+extra_javascript:
+  - https://cdn.jsdelivr.net/npm/vega@5
+  - https://cdn.jsdelivr.net/npm/vega-lite@5
+  - https://cdn.jsdelivr.net/npm/vega-embed@6
+
+extra_css:
+  - stylesheets/extra.css
+
+# Navigation
+nav:
+  - About:
+    - about/index.md
+    - License: about/license.md
+    - Disclaimer: about/disclaimer.md
+    - Sponsorship: about/sponsor.md
+    - Tips & Donations: about/donate.md
+    - Contact: about/contact.md
+    - Report an issue: about/report.md
+    - Community: about/community.md
+  - Offensive Security: 
+    - off/index.md
+  - Defensive Security: 
+    - def/index.md
+  - Core Competencies: 
+    - core/index.md
+  - Architecture & Internals: 
+    - arch-int/index.md
+  - Research: 
+    - res/index.md
+  - Resources & References: 
+    - r-r/index.md
+  - Tags: tags.md

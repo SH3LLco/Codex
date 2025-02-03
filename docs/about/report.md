@@ -1,0 +1,3 @@
+# Report an Issue
+
+Report incorrect/inaccurate data/information, suggestions for changes/improvements, or any other problems you are having by joining the official [Codex Discord](https://discord.gg/fUAnjxCEGF) and letting me know in the corresponding channel: Codex-Talk → `#issues`, `#suggestions`, or `#revisions`. Please be sure to include a link to the page you are referring to, the specific data/information in question, and how the data/information is wrong or needs to be changed. All suggestions are also welcomed and help improve the site.
