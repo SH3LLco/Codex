@@ -8,6 +8,7 @@ site_description: >-
 # Repo
 repo_name: SH3LLco/Codex
 repo_url: https://github.com/SH3LLco/Codex
+edit_uri: edit/main/docs/
 
 # Copyright
 copyright: >
