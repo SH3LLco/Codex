@@ -33,6 +33,12 @@ jobs:
       - run: pip install mkdocs-minify-plugin mkdocs-glightbox mkdocs-panzoom-plugin mkdocs-d2-plugin
       - run: curl -fsSL https://d2lang.com/install.sh | sh
       - run: sudo apt-get install libcairo2-dev libfreetype6-dev libffi-dev libjpeg-dev libpng-dev libz-dev
-      - run: mkdocs gh-deploy --force --cname sh3ll.co
+      
+      # Preserve CNAME File
+      - name: Ensure CNAME File Exists
+        run: |
+          echo "sh3ll.co" > docs/CNAME
+
+      - run: mkdocs gh-deploy --force
 env:
   GH_TOKEN: ${{ secrets.GH_TOKEN }}
