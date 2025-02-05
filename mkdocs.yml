@@ -78,6 +78,7 @@ plugins:
   - privacy
   - social
   - glightbox
+  - panzoom
   - offline
   - meta
   - optimize
