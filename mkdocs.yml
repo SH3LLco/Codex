@@ -78,7 +78,11 @@ plugins:
   - privacy
   - social
   - glightbox
-  - panzoom
+  - d2
+  - panzoom:
+      full_screen: true
+      always_show_hint: true
+      key: "alt"
   - offline
   - meta
   - optimize
@@ -138,11 +142,6 @@ markdown_extensions:
       line_spans: __span
       pygments_lang_class: true
   - pymdownx.inlinehilite
-  # - pymdownx.magiclink:
-  #     normalize_issue_symbols: true
-  #     repo_url_shorthand: true
-  #     user: SH3LLco
-  #     repo: Codex
   - pymdownx.mark
   - pymdownx.smartsymbols
   - pymdownx.snippets
@@ -161,6 +160,7 @@ extra_javascript:
   - https://cdn.jsdelivr.net/npm/vega@5
   - https://cdn.jsdelivr.net/npm/vega-lite@5
   - https://cdn.jsdelivr.net/npm/vega-embed@6
+  - https://unpkg.com/mermaid/dist/mermaid.min.js
 
 extra_css:
   - stylesheets/extra.css

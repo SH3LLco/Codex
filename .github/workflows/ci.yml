@@ -29,7 +29,7 @@ jobs:
       - run: sudo apt-get install pngquant 
       - run: pip install git+https://${GH_TOKEN}@github.com/squidfunk/mkdocs-material-insiders.git
       - run: pip install "mkdocs-material[imaging]"
-      - run: pip install mkdocs-print-site-plugin mkdocs-awesome-pages-plugin mkdocs-redirects mkdocs-exclude mkdocs-mermaid2-plugin mkdocs-charts-plugin mkdocs-minify-plugin mkdocs-glightbox mkdocs-panzoom-plugin
+      - run: pip install mkdocs-print-site-plugin mkdocs-awesome-pages-plugin mkdocs-redirects mkdocs-exclude mkdocs-mermaid2-plugin mkdocs-charts-plugin mkdocs-minify-plugin mkdocs-glightbox mkdocs-panzoom-plugin mkdocs-d2-plugin
       - run: sudo apt-get install libcairo2-dev libfreetype6-dev libffi-dev libjpeg-dev libpng-dev libz-dev
       - run: mkdocs gh-deploy --force
 env:
