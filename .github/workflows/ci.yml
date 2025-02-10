@@ -38,7 +38,7 @@ jobs:
       - name: Ensure CNAME File Exists
         run: |
           echo "sh3ll.co" > docs/CNAME
-
+      - run: export LD_LIBRARY_PATH=/absolute/path/to/lib:$LD_LIBRARY_PATH
       - run: mkdocs gh-deploy --force
 env:
   GH_TOKEN: ${{ secrets.GH_TOKEN }}
