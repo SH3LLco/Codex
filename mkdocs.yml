@@ -76,7 +76,12 @@ plugins:
   - mermaid2
   - charts
   - privacy
-  - social
+  - social:
+      cards_layout: default/accent
+      cards_layout_options:
+        background_color: "#1E202BD3"
+        background_image: docs/assets/card.png
+        logo: docs/assets/SH3LL.png
   - glightbox
   - d2
   - panzoom:
