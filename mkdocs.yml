@@ -90,10 +90,10 @@ plugins:
           securityLevel: 'loose'
   - privacy
   - glightbox
-  # - panzoom:
-  #     full_screen: true
-  #     always_show_hint: true
-  #     key: "alt"
+  - panzoom:
+      full_screen: true
+      always_show_hint: true
+      key: "alt"
   - meta
   - optimize:
       cache: false
