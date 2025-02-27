@@ -62,14 +62,14 @@ theme:
 plugins:
   - search:
       separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
-  - social:
-    cards_layout: default/accent
-    cards_layout_options:
-      background_color: "#1E202BD3"
-      background_image: docs/assets/card.png
-      logo: docs/assets/SH3LL.png
   - minify:
       minify_html: true
+  - social:
+      cards_layout: default/accent
+      cards_layout_options:
+        background_color: "#1E202BD3"
+        background_image: docs/assets/card.png
+        logo: docs/assets/SH3LL.png
   - tags
   - typeset
   - redirects
