@@ -27,6 +27,7 @@ jobs:
           restore-keys: |
             mkdocs-material-
       - run: sudo apt-get install pngquant 
+      - run: sudo apt-get install libcairo2-dev libfreetype6-dev libffi-dev libjpeg-dev libpng-dev libz-dev
       - run: pip install git+https://${GH_TOKEN}@github.com/squidfunk/mkdocs-material-insiders.git
       - run: pip install mkdocs-redirects mkdocs-exclude mkdocs-mermaid2-plugin mkdocs-minify-plugin mkdocs-glightbox mkdocs-panzoom-plugin mkdocs-backlinks-section-plugin "mkdocs-material[imaging]"
       
@@ -34,6 +35,7 @@ jobs:
       - name: Ensure CNAME File Exists
         run: |
           echo "sh3ll.co" > docs/CNAME
+      - run: export LD_LIBRARY_PATH=/absolute/path/to/lib:$LD_LIBRARY_PATH
       - run: mkdocs gh-deploy --force
 env:
   GH_TOKEN: ${{ secrets.GH_TOKEN }}
