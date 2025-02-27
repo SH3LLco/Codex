@@ -52,7 +52,7 @@ theme:
       primary: custom
       accent: indigo
   font:
-    text: Roboto
+    text: Roboto Medium
     code: Roboto Mono
   favicon: assets/images/favicon.png
   icon:
@@ -66,7 +66,14 @@ plugins:
       minify_html: true
   - tags
   - awesome-pages
+  - typeset
   - redirects
+  - backlinks_section:
+      ignore_links_from:
+        - tags.md
+      ignore_links_to:
+        - index.md
+      hide_if_empty: true
   - exclude:
       glob:
         - ".obsidian/*"
@@ -181,15 +188,16 @@ nav:
     - Report an issue: about/report.md
     - Community: about/community.md
   - Offensive Security: 
-    - off/index.md
+    - offense/index.md
   - Defensive Security: 
-    - def/index.md
+    - defense/index.md
   - Core Competencies: 
     - core/index.md
-  - Architecture & Internals: 
-    - arch-int/index.md
+    - Networking: core/networking/index.md
+  - Systems & Internals: 
+    - sysint/index.md
   - Research: 
-    - res/index.md
+    - research/index.md
   - Resources & References: 
-    - r-r/index.md
+    - resource-ref/index.md
   - Tags: tags.md

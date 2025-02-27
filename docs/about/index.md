@@ -8,24 +8,13 @@ I built this site mainly to use as my notes. However, I wanted to build a public
 
 | **Section** | **Description** |
 | -------------- | ----------- | 
-| **[Offensive Security](../off/index.md)** | **Offensive Security education, TTPs, Methodologies, Frameworks, and more!** |
-| **[Defensive Security](../def/index.md)** | **Defensive Security education, TTPs, Methodologies, Frameworks, and more!** |
+| **[Offensive Security](../offense/index.md)** | **Offensive Security education, TTPs, Methodologies, Frameworks, and more!** |
+| **[Defensive Security](../defense/index.md)** | **Defensive Security education, TTPs, Methodologies, Frameworks, and more!** |
 | **[Core Competencies](../core/index.md)** | **Foundational skills used in both offensive and defensive security!** |
-| **[Architecture & Internals](../arch-int/index.md)** | **High-level dataflows/diagrams to low-level mechanics for services, operating systems, and more!** |
-| **[Research](../res/index.md)** | **POCs, CVEs, and other research by SH3LL or others!** |
-| **[Resources & References](../r-r/index.md)** | **Tool manuals, command cheatsheets, write-ups, resourceful blogs/KBs, and more!** |
+| **[Systems & Internals](../sysint/index.md)** | **High-level dataflows/diagrams to low-level mechanics for services, protocols, operating systems, and more!** |
+| **[Research](../research/index.md)** | **POCs, CVEs, and other research by SH3LL or others!** |
+| **[Resources & References](../resource-ref/index.md)** | **Tool manuals, command cheatsheets, write-ups, resourceful blogs/KBs, and more!** |
 | **[Tags](../tags.md)** | **Global tag page grouped by tag.** |
-
----
-
-
-## Searching Tags
-
-You are able to search one or many tags at once by using the `tags:` prefix for each tag. If the tag you are searching for has spaces or weird characters, remember to use double quotes. 
-
-Searching multiple tags example: "Cybersecurity" and "Architecture & Internals"
-
-- `tags: Cybersecurity tags: "Architecture & Internals"`
 
 ---
 
