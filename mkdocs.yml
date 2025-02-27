@@ -65,7 +65,6 @@ plugins:
   - minify:
       minify_html: true
   - tags
-  - awesome-pages
   - typeset
   - redirects
   - backlinks_section:
@@ -81,7 +80,6 @@ plugins:
         - "Workshop/*"
         - ".DS_Store"
   - mermaid2
-  - charts
   - privacy
   - social:
       cards_layout: default/accent
@@ -90,15 +88,12 @@ plugins:
         background_image: docs/assets/card.png
         logo: docs/assets/SH3LL.png
   - glightbox
-  - d2
   - panzoom:
       full_screen: true
       always_show_hint: true
       key: "alt"
-  - offline
   - meta
   - optimize
-  - print-site
 
 # Extra
 extra:
