@@ -74,8 +74,6 @@ plugins:
       ignore_links_to:
         - index.md
         - tags.md
-      hide_if_empty: true
-      add_to_toc: true
   - exclude:
       glob:
         - ".obsidian/*"
