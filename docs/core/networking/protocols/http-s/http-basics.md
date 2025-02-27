@@ -1,10 +1,7 @@
 ---
 tags:
   - http
-  - https
-  - protocol
   - networking
-  - port 80
 comments: true
 ---
 

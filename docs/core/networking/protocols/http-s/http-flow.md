@@ -1,11 +1,8 @@
 ---
 tags:
   - http
-  - https
   - networking
-  - protocol
   - flow
-  - port 80
 comments: true
 ---
 

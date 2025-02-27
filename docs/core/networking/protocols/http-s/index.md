@@ -4,8 +4,6 @@ tags:
   - https
   - protocol
   - networking
-  - port 80
-  - port 443
 comments: true
 ---
 

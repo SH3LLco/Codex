@@ -34,8 +34,8 @@ theme:
     - navigation.footer
     - navigation.path
     - navigation.indexes
-    - navigation.instant
-    - navigation.instant.prefetch
+    # - navigation.instant
+    # - navigation.instant.prefetch
     - navigation.prune
     - navigation.instant.preview
     - navigation.tabs
