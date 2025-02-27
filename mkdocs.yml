@@ -93,7 +93,8 @@ plugins:
       always_show_hint: true
       key: "alt"
   - meta
-  - optimize
+  - optimize:
+      cache: false
 
 # Extra
 extra:
