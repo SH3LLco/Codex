@@ -1,2 +1,2 @@
 # Networking
-### [Protocols](protocols/index.md)
+## [Protocols](protocols/index.md)
