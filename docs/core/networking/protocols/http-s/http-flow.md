@@ -19,7 +19,7 @@ sequenceDiagram
 
     participant DNS_Server as DNS Server
 
-    participant Web_Server as ACME Web Server<br><br>152.153.81.14
+    participant Web_Server as ACME Web Server: 152.153.81.14
 
   
 
@@ -33,11 +33,11 @@ sequenceDiagram
 
     Browser->>Web_Server: Request
 
-    note over Browser,Web_Server: 152.153.81.14:80 <br> GET / HTTP/1.1
+    note over Browser,Web_Server: 152.153.81.14:80 GET / HTTP/1.1
 
     Web_Server-->>Browser: Response
 
-    note over Web_Server,Browser: acme.org <br> HTTP/1.1 200 OK index.html
+    note over Web_Server,Browser: acme.org HTTP/1.1 200 OK index.html
 ``` 
 !!! note "Notes on DNS"
 
