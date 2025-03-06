@@ -8,13 +8,14 @@ document$.subscribe(function() {
     })
     
     if (window.mermaid) {
-      mermaid.init(undefined, document.querySelectorAll(".mermaid"));
-    }
-  
-    if (window.panzoom) {
-      document.querySelectorAll(".panzoom-container").forEach((el) => {
-        panzoom(el);
-      });
-    }
+        console.log("Mermaid detected, re-initializing...");
+        mermaid.init(undefined, document.querySelectorAll(".mermaid"));
+      }
+    
+      if (window.initPanZoom) {
+        console.log("PanZoom detected, re-initializing...");
+        window.initPanZoom(); // Correct way to reinitialize PanZoom (as per mkdocs-panzoom docs)
+      } else {
+        console.log("PanZoom function not found, check if mkdocs-panzoom is loaded.");
+      }
   });
-  
