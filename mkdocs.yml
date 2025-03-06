@@ -90,13 +90,13 @@ plugins:
           securityLevel: 'loose'
   - privacy
   - glightbox
+  - meta
+  - optimize:
+      cache: false
   - panzoom:
       full_screen: true
       always_show_hint: true
       key: "shift"
-  - meta
-  - optimize:
-      cache: false
 
 # Extra
 extra:
