@@ -73,12 +73,12 @@ plugins:
   - tags
   - typeset
   - redirects
-  - backlinks_section:
-      ignore_links_from:
-        - tags.md
-      ignore_links_to:
-        - index.md
-        - tags.md
+  # - backlinks_section:
+  #     ignore_links_from:
+  #       - tags.md
+  #     ignore_links_to:
+  #       - index.md
+  #       - tags.md
   - exclude:
       glob:
         - ".obsidian/*"
