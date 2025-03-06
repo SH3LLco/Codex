@@ -52,7 +52,7 @@ theme:
       primary: custom
       accent: indigo
   font:
-    text: Roboto Medium
+    text: Roboto
     code: Roboto Mono
   favicon: assets/images/favicon.png
   icon:
