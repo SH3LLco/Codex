@@ -93,10 +93,10 @@ plugins:
   - meta
   - optimize:
       cache: false
-  - panzoom:
-      full_screen: true
-      always_show_hint: true
-      key: "shift"
+  # - panzoom:
+  #     full_screen: true
+  #     always_show_hint: true
+  #     key: "shift"
 
 # Extra
 extra:
