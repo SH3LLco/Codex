@@ -1,4 +1,3 @@
-// Subscribe to Material for MkDocs' document$ observable
 document$.subscribe(function() {
     console.log("Re-initializing third-party plugins...");
     
