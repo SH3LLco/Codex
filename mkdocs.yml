@@ -194,7 +194,8 @@ nav:
     - defense/index.md
   - Core Competencies: 
     - core/index.md
-    - Networking: core/networking/index.md
+    - Networking:
+      - Protocols: core/networking/protocols/index.md
   - Systems & Internals: 
     - sysint/index.md
   - Research: 
