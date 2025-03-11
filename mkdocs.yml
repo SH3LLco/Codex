@@ -73,12 +73,12 @@ plugins:
   - tags
   - typeset
   - redirects
-  # - backlinks_section:
-  #     ignore_links_from:
-  #       - tags.md
-  #     ignore_links_to:
-  #       - index.md
-  #       - tags.md
+  - backlinks_section:
+      ignore_links_from:
+        - tags.md
+      ignore_links_to:
+        - index.md
+        - tags.md
   - exclude:
       glob:
         - ".obsidian/*"
@@ -86,17 +86,21 @@ plugins:
         - "Workshop/*"
         - ".DS_Store"
   - mermaid2:
-        arguments:
-          securityLevel: 'loose'
-  - privacy
+      arguments:
+        securityLevel: 'loose'
+  - privacy:
+      assets_exclude:
+        - unpkg.com/tablesort
+        - unpkg.com/mathjax@3/*
+        - giscus.app/*
   - glightbox
   - meta
   - optimize:
       cache: false
-  # - panzoom:
-  #     full_screen: true
-  #     always_show_hint: true
-  #     key: "shift"
+  - panzoom:
+      full_screen: true
+      always_show_hint: true
+      key: "shift"
 
 # Extra
 extra:
