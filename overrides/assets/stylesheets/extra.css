@@ -58,3 +58,19 @@
   margin-left: auto;
   margin-right: auto;
 }
+
+.md-typeset table {
+  table-layout: fixed; /* Ensures consistent column sizing */
+  width: 100%;         /* Ensures table uses full width */
+}
+
+.md-typeset table th,
+.md-typeset table td {
+  white-space: nowrap; /* Prevent text from wrapping */
+  overflow: hidden;    /* Prevent content overflow */
+  text-overflow: ellipsis; /* Add "..." for overflowed text */
+}
+
+.md-typeset table td:nth-child(2) {
+  min-width: 200px; /* Adjust as necessary to fit your content */
+}

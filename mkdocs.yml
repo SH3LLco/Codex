@@ -196,7 +196,10 @@ nav:
     - core/index.md
     - Networking:
       - core/networking/index.md
-      - Protocols: core/networking/protocols/index.md
+      - Protocols: 
+        - core/networking/protocols/index.md
+        - HTTP/S:
+          - core/networking/protocols/http-s/index.md
   - Systems & Internals: 
     - sysint/index.md
   - Research: 
