@@ -200,6 +200,11 @@ nav:
         - core/networking/protocols/index.md
         - HTTP/S:
           - core/networking/protocols/http-s/index.md
+          - HTTP Basics: core/networking/protocols/http-s/http-basics.md
+          - HTTPS Basics: core/networking/protocols/http-s/https-basics.md
+          - HTTP Flow: core/networking/protocols/http-s/http-flow.md
+          - HTTPS Flow: core/networking/protocols/http-s/https-flow.md
+          - URLs: core/networking/protocols/http-s/urls.md
   - Systems & Internals: 
     - sysint/index.md
   - Research: 
