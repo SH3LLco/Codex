@@ -7,7 +7,7 @@ tags:
 comments: true
 ---
 
-# HTTP/s
+# HTTP/S
 
 ## Fundamentals
 - [HTTP Basics](http-basics.md)
