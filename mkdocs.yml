@@ -71,6 +71,10 @@ plugins:
         background_image: docs/assets/card.png
         logo: docs/assets/SH3LL.png
   - tags
+  - panzoom:
+      full_screen: true
+      always_show_hint: true
+      key: "shift"
   - typeset
   - redirects
   - backlinks_section:
@@ -97,10 +101,6 @@ plugins:
   - meta
   - optimize:
       cache: false
-  - panzoom:
-      full_screen: true
-      always_show_hint: true
-      key: "shift"
 
 # Extra
 extra:
