@@ -71,10 +71,6 @@ plugins:
         background_image: docs/assets/card.png
         logo: docs/assets/SH3LL.png
   - tags
-  - panzoom:
-      full_screen: true
-      always_show_hint: true
-      key: "shift"
   - typeset
   - redirects
   - backlinks_section:
@@ -92,6 +88,10 @@ plugins:
   - mermaid2:
       arguments:
         securityLevel: 'loose'
+  - panzoom:
+      full_screen: true
+      always_show_hint: true
+      key: "shift"  
   - privacy:
       assets_exclude:
         - unpkg.com/tablesort
