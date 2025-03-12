@@ -211,4 +211,7 @@ nav:
     - research/index.md
   - Resources & References: 
     - resource-ref/index.md
+    - Tools:
+      - resource-ref/tools/index.md
+      - cURL: resource-ref/tools/curl.md
   - Tags: tags.md
