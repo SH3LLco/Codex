@@ -1,4 +1,4 @@
-# **Codex by [SH3LL](sh3ll/index.md)**
+# **Codex by [SH3LL](SH3LL/index.md)**
 
 ![](assets/animation.gif){ .center-image }
 

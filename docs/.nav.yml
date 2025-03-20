@@ -1,22 +1,22 @@
 nav:
   - About:
-    - about/index.md
-    - "about/*"
+    - About/index.md
+    - "About/*"
   - Offensive Security: 
-    - offense/index.md
-    - "offense/*"
+    - Offense/index.md
+    - "Offense/*"
   - Defensive Security: 
-    - defense/index.md
-    - "defense/*"
+    - Defense/index.md
+    - "Defense/*"
   - Core Competencies: 
-    - core/index.md
-    - "core/*"
+    - Core/index.md
+    - "Core/*"
   - Systems & Internals: 
-    - sysint/index.md
-    - "sysint/*"
+    - Sys-Int/index.md
+    - "Sys-Int/*"
   - Research: 
-    - research/index.md
-    - "research/*"
+    - Research/index.md
+    - "Research/*"
   - Resources & References: 
-    - resource-ref/index.md
-    - "resource-ref/*"
+    - Resource-Ref/index.md
+    - "Resource-Ref/*"

@@ -1,3 +1,4 @@
 # Networking
 
-## [Protocols](protocols/index.md)
+## [Protocols](Protocols/index.md)
+## [General Networking](General-Networking/index.md)
