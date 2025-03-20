@@ -1,4 +1,4 @@
-# About this site
+# About
 
 I built this site mainly to use as my notes. However, I wanted to build a public resource that, hopefully, provides value to anyone in the cyber, or a cyber adjacent, field. Someday, I hope to have a comprehensive, easy to navigate, quick to use site containing everything you need for your cyber operations or studies. 
 

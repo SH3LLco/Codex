@@ -1,4 +1,4 @@
-# Donate to SH3LL
+# Donate
 
 Thank you for your consideration in supporting SH3LL. All donations go right back into making this site better including purchases for course content, training, seminars, and other educational material.
 

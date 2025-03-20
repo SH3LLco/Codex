@@ -1,4 +1,4 @@
-# Infophreak
+# Community
 
 ![](../assets/infophreak-22%20trans.png)
 
