@@ -1,5 +1,5 @@
 # Programming
 
 ## Languages
-- [C](C/index.md)
-- [Python](Python/index.md)
+- [C](c/index.md)
+- [Python](python/index.md)

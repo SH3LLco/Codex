@@ -62,8 +62,8 @@ theme:
 plugins:
   - search:
       separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
-  # - minify:
-  #     minify_html: true
+  - minify:
+      minify_html: true
   - social:
       cards_layout: default/accent
       cards_layout_options:
@@ -177,42 +177,3 @@ extra_javascript:
 
 extra_css:
   - stylesheets/extra.css
-
-# Navigation
-# nav:
-#   - About:
-#     - about/index.md
-#     - License: about/license.md
-#     - Disclaimer: about/disclaimer.md
-#     - Sponsorship: about/sponsor.md
-#     - Tips & Donations: about/donate.md
-#     - Contact: about/contact.md
-#     - Report an issue: about/report.md
-#     - Community: about/community.md
-#   - Offensive Security: 
-#     - offense/index.md
-#   - Defensive Security: 
-#     - defense/index.md
-#   - Core Competencies: 
-#     - core/index.md
-#     - Networking:
-#       - core/networking/index.md
-#       - Protocols: 
-#         - core/networking/protocols/index.md
-#         - HTTP/S:
-#           - core/networking/protocols/http-s/index.md
-#           - HTTP Basics: core/networking/protocols/http-s/http-basics.md
-#           - HTTPS Basics: core/networking/protocols/http-s/https-basics.md
-#           - HTTP Flow: core/networking/protocols/http-s/http-flow.md
-#           - HTTPS Flow: core/networking/protocols/http-s/https-flow.md
-#           - URLs: core/networking/protocols/http-s/urls.md
-#   - Systems & Internals: 
-#     - sysint/index.md
-#   - Research: 
-#     - research/index.md
-#   - Resources & References: 
-#     - resource-ref/index.md
-#     - Tools:
-#       - resource-ref/tools/index.md
-#       - cURL: resource-ref/tools/curl.md
-#   - Tags: tags.md

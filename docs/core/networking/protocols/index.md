@@ -1,6 +1,6 @@
 # Protocols
 
-| **PROTOCOL** | **PORT** |
-| ------------ | -------- |
-| [HTTP(S)](HTTP(S)/index.md)| 80/443 |
+| **PROTOCOL**                | **PORT** |
+| --------------------------- | -------- |
+| [HTTP(S)](HTTP(S)/index.md) | 80/443   |
 
