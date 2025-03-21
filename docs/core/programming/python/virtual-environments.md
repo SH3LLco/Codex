@@ -1,3 +1,10 @@
+---
+tags:
+  - python
+  - programming
+  - virtual-environment
+comments: true
+---
 # Virtual Environments
 
 ## Creating the Virtual Environment

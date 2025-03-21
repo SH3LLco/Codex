@@ -1,1 +1,6 @@
+---
+tags:
+  - programming
+  - c
+---
 # C

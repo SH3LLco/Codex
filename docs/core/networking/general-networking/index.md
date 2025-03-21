@@ -1,3 +1,7 @@
+---
+tags:
+  - networking
+---
 # General Networking
 This section goes under the fundamentals of networking without going too deep. This serves as a refresher and basic reference for general networking concepts. 
 
