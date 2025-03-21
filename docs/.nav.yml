@@ -20,3 +20,4 @@ nav:
   - Resources & References: 
     - "resource-ref/index.md"
     - "resource-ref/*"
+  - Tags: tags.md
