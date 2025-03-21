@@ -2,6 +2,7 @@
 tags:
   - http
   - networking
+  - osi-7
 comments: true
 ---
 

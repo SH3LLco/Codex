@@ -2,6 +2,7 @@
 tags:
   - https
   - networking
+  - osi-7
 comments: true
 ---
 

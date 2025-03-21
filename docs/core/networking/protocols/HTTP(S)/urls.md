@@ -4,6 +4,7 @@ tags:
   - https
   - networking
   - url
+  - osi-7
 comments: true
 ---
 

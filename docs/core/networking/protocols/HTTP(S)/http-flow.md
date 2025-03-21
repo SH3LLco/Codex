@@ -3,6 +3,7 @@ tags:
   - http
   - networking
   - flow
+  - osi-7
 comments: true
 ---
 

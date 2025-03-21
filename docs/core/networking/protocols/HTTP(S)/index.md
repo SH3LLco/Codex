@@ -4,7 +4,7 @@ tags:
   - https
   - protocol
   - networking
-comments: true
+  - osi-7
 ---
 
 # HTTP(S)
