@@ -1,7 +1,16 @@
+---
+tags:
+  - networking
+  - find-ip
+  - resource
+  - reference
+comments: true
+---
 # Find IP Address
 This is not an exhaustive list, but a few methods to try.
 
-## Linux
+## Finding a Private IP Address
+### Linux
 
 ```bash
 ifconfig
@@ -13,7 +22,7 @@ cat /proc/net/fib_trie
 arp -n
 ```
 
-## Windows
+### Windows
 
 ```powershell
 ipconfig
@@ -25,23 +34,23 @@ Get-NetRoute
 
 ---
 
-# Finding a public IP Address
+## Finding a Public IP Address
 
 This is not an exhaustive list, but a few methods to try.
 
-## Websites
+### Websites
 
 - [https://whatismyipaddress.com/](https://whatismyipaddress.com/)
 - [https://www.ipchicken.com/](https://www.ipchicken.com/)
 
-## Python
+### Python
 
 ```python
 python -c "import requests; print(requests.get('https://ifconfig.me').text.strip())"
 python3 -c "import requests; print(requests.get('https://ifconfig.me').text.strip())"
 ```
 
-## Linux
+### Linux
 
 ```bash
 curl ifconfig.me
@@ -60,19 +69,19 @@ nslookup myip.opendns.com resolver1.opendns.com
 host myip.opendns.com resolver1.opendns.com
 ```
 
-### AWS EC2 Instances
+#### AWS EC2 Instances
 
 ```bash
 curl http://169.254.169.254/latest/meta-data/public-ipv4
 ```
 
-### Google Cloud Instances
+#### Google Cloud Instances
 
 ```bash
 curl http://metadata.google.internal/computeMetadata/v1/instance/network-interfaces/0/access-configs/0/external-ip -H "Metadata-Flavor: Google"
 ```
 
-### Azure Virtual Machines
+#### Azure Virtual Machines
 
 ```bash
 curl -H Metadata:true "http://169.254.169.254/metadata/instance/network/interface/0/ipv4/ipAddress/0/publicIpAddress?api-version=2021-02-01" -s
@@ -80,7 +89,7 @@ curl -H Metadata:true "http://169.254.169.254/metadata/instance/network/interfac
 
 ---
 
-## Windows
+### Windows
 
 ```powershell
 curl ifconfig.me
@@ -94,19 +103,19 @@ nslookup myip.opendns.com resolver1.opendns.com
 Test-Connection -ComputerName google.com
 ```
 
-### AWS EC2 Instances
+#### AWS EC2 Instances
 
 ```powershell
 curl http://169.254.169.254/latest/meta-data/public-ipv4
 ```
 
-### Google Cloud Instances
+#### Google Cloud Instances
 
 ```powershell
 curl http://metadata.google.internal/computeMetadata/v1/instance/network-interfaces/0/access-configs/0/external-ip -H "Metadata-Flavor: Google"
 ```
 
-### Azure Virtual Machines
+#### Azure Virtual Machines
 
 ```powershell
 Invoke-RestMethod -Uri "http://169.254.169.254/metadata/instance/network/interface/0/ipv4/ipAddress/0/publicIpAddress?api-version=2021-02-01" -Headers @{"Metadata"="true"}
