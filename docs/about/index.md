@@ -11,7 +11,7 @@ I built this site mainly to use as my notes. However, I wanted to build a public
 | **[Offensive Security](../offense/index.md)** | **Offensive Security education, TTPs, Methodologies, Frameworks, and more!** |
 | **[Defensive Security](../defense/index.md)** | **Defensive Security education, TTPs, Methodologies, Frameworks, and more!** |
 | **[Core Competencies](../core/index.md)** | **Foundational skills used in both offensive and defensive security!** |
-| **[Systems & Internals](../sys-int/index.md)** | **High-level dataflows/diagrams to low-level mechanics for services, protocols, operating systems, and more!** |
+| **[Systems & Internals](../sysint/index.md)** | **High-level dataflows/diagrams to low-level mechanics for services, protocols, operating systems, and more!** |
 | **[Research](../research/index.md)** | **POCs, CVEs, and other research by SH3LL or others!** |
 | **[Resources & References](../resource-ref/index.md)** | **Tool manuals, command cheatsheets, write-ups, resourceful blogs/KBs, and more!** |
 | **[Tags](../tags.md)** | **Global tag page grouped by tag.** |

@@ -7,10 +7,6 @@ comments: true
 # The 3-way Handshake
 ## TCP, UDP, and the 3-Way Handshake
 
-A deep-dive technical explanation of TCP, UDP, and the 3-Way Handshake at an advanced networking level, along with their placement in the OSI model and their classification in terms of ports, protocols, services, functions, and technologies.
-
----
-
 ## 1. Placement in the OSI Model
 
 - **OSI Layer**: TCP (Transmission Control Protocol) and UDP (User Datagram Protocol) both operate at **Layer 4** of the OSI model, the **Transport Layer**.
@@ -110,14 +106,14 @@ The 3-Way Handshake establishes a **connection-oriented** session in TCP, synchr
 
 ## 5. Classification Table
 
-| **Concept** | **Layer / Category** | **Definition** | **Classification** |
-| --- | --- | --- | --- |
-| **TCP** | Transport (Layer 4) | Connection-oriented, reliable data transport. | **Protocol**(part of TCP/IP technology) |
-| **UDP** | Transport (Layer 4) | Connectionless, best-effort data transport. | **Protocol**(part of UDP/IP technology) |
-| **Ports** | Transport (Layer 4) | Numerical identifiers (1–65535) for multiplexing multiple services on one host. | **Function**(mechanism used by transport protocols) |
-| **3-Way Handshake** | Transport (Layer 4) / TCP | Process used by TCP to establish a reliable connection (SYN, SYN-ACK, ACK). | **Function**within the TCP protocol |
-| **Application Service** | Application (Layer 7) | A user-facing/application-facing capability built on top of transport protocols. | **Service** |
-| **TCP/IP** | Protocol Suite | Foundational set of technologies for internet-based communication (includes IP, TCP, UDP). | **Technology** |
+| **Concept**             | **Layer / Category**      | **Definition**                                                                             | **Classification**                                   |
+| ----------------------- | ------------------------- | ------------------------------------------------------------------------------------------ | ---------------------------------------------------- |
+| **TCP**                 | Transport (Layer 4)       | Connection-oriented, reliable data transport.                                              | **Protocol** (part of TCP/IP technology)             |
+| **UDP**                 | Transport (Layer 4)       | Connectionless, best-effort data transport.                                                | **Protocol** (part of UDP/IP technology)             |
+| **Ports**               | Transport (Layer 4)       | Numerical identifiers (1–65535) for multiplexing multiple services on one host.            | **Function** (mechanism used by transport protocols) |
+| **3-Way Handshake**     | Transport (Layer 4) / TCP | Process used by TCP to establish a reliable connection (SYN, SYN-ACK, ACK).                | **Function** within the TCP protocol                 |
+| **Application Service** | Application (Layer 7)     | A user-facing/application-facing capability built on top of transport protocols.           | **Service**                                          |
+| **TCP/IP**              | Protocol Suite            | Foundational set of technologies for internet-based communication (includes IP, TCP, UDP). | **Technology**                                       |
 
 ---
 

@@ -12,8 +12,8 @@ nav:
     - "core/index.md"
     - "core/*"
   - Systems & Internals: 
-    - "sys-int/index.md"
-    - "sys-int/*"
+    - "sysint/index.md"
+    - "sysint/*"
   - Research: 
     - "research/index.md"
     - "research/*"
