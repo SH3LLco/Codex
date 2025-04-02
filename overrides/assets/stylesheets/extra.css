@@ -75,22 +75,32 @@
 } */
 
 .md-typeset table {
-  table-layout: auto;   /* Natural column sizing */
+  table-layout: auto;
   width: 100%;
-  overflow-x: auto;     /* Horizontal scroll if needed */
-  display: block;       /* Helps scroll on smaller screens */
+  overflow-x: auto;
+  display: block;
 }
 
 .md-typeset table th,
 .md-typeset table td {
-  white-space: normal;       /* Wrap between words only */
+  white-space: normal;        /* Default: wrap cleanly at word boundaries */
   overflow: hidden;
-  text-overflow: ellipsis;   /* Optional — adds "..." if clipped */
+  text-overflow: ellipsis;
   padding: 0.6em 1em;
 }
 
-/* Optional: force some columns to never wrap */
-.md-typeset table td.nowrap,
-.md-typeset table th.nowrap {
+/* For 2-column tables: make first column nowrap */
+.md-typeset table tr td:nth-child(1):nth-last-child(1),
+.md-typeset table tr th:nth-child(1):nth-last-child(1),
+.md-typeset table tr td:nth-child(1):nth-last-child(2),
+.md-typeset table tr th:nth-child(1):nth-last-child(2) {
+  white-space: nowrap;
+}
+
+/* For 3-column tables: make first and second columns nowrap */
+.md-typeset table tr td:nth-child(1):nth-last-child(2),
+.md-typeset table tr td:nth-child(2):nth-last-child(1),
+.md-typeset table tr th:nth-child(1):nth-last-child(2),
+.md-typeset table tr th:nth-child(2):nth-last-child(1) {
   white-space: nowrap;
 }
