@@ -59,18 +59,38 @@ margin-left: auto;
 margin-right: auto;
 }
 
+/* .md-typeset table {
+  table-layout: fixed;
+  width: 100%; 
+
+.md-typeset table th,
+.md-typeset table td {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.md-typeset table td:nth-child(2) {
+  min-width: 200px;
+} */
+
 .md-typeset table {
-table-layout: fixed; /* Ensures consistent column sizing */
-width: 100%;         /* Ensures table uses full width */
+  table-layout: auto;   /* Natural column sizing */
+  width: 100%;
+  overflow-x: auto;     /* Horizontal scroll if needed */
+  display: block;       /* Helps scroll on smaller screens */
 }
 
 .md-typeset table th,
 .md-typeset table td {
-white-space: nowrap; /* Prevent text from wrapping */
-overflow: hidden;    /* Prevent content overflow */
-text-overflow: ellipsis; /* Add "..." for overflowed text */
+  white-space: normal;       /* Wrap between words only */
+  overflow: hidden;
+  text-overflow: ellipsis;   /* Optional — adds "..." if clipped */
+  padding: 0.6em 1em;
 }
 
-.md-typeset table td:nth-child(2) {
-min-width: 200px; /* Adjust as necessary to fit your content */
+/* Optional: force some columns to never wrap */
+.md-typeset table td.nowrap,
+.md-typeset table th.nowrap {
+  white-space: nowrap;
 }
