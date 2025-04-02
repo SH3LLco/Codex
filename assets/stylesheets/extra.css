@@ -1,0 +1,107 @@
+/* Adjust logo size without breaking auto-scaling */
+.md-header__button.md-logo img {
+    height: auto;   /* Maintain aspect ratio */
+    max-height: 100px;  /* Adjust to your preference */
+    width: auto;    /* Allow auto-scaling */
+}
+
+[data-md-color-scheme="slate"] {
+  --md-typeset-a-color: #29c0ed;
+}
+
+:root {
+  --md-primary-fg-color:        hsla(var(--md-hue),15%,9%,1);
+  --md-primary-fg-color--light: hsla(var(--md-hue),15%,9%,0.54);
+  --md-primary-fg-color--dark:  hsla(var(--md-hue),15%,9%,1);
+}
+
+/* Only apply styles to the contact form */
+.contact-form {
+  max-width: 500px;
+  margin: 20px auto;
+  padding: 20px;
+  background: var(--md-default-bg-color);
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form label {
+  display: block;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.contact-form input, .contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid var(--md-default-fg-color--lighter);
+  border-radius: 5px;
+}
+
+.contact-form button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  background: var(--md-typeset-a-color);
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.contact-form button:hover {
+  background: var(--md-accent-fg-color--light);
+}
+
+.center-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* .md-typeset table {
+  table-layout: fixed;
+  width: 100%; 
+
+.md-typeset table th,
+.md-typeset table td {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.md-typeset table td:nth-child(2) {
+  min-width: 200px;
+} */
+
+.md-typeset table {
+  table-layout: auto;
+  width: 100%;
+  overflow-x: auto;
+  display: block;
+}
+
+.md-typeset table th,
+.md-typeset table td {
+  white-space: normal;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding: 0.6em 1em;
+}
+
+/* --- 2-column table: only first column nowrap --- */
+.md-typeset table tr td:nth-child(1):nth-last-child(1),
+.md-typeset table tr td:nth-child(1):nth-last-child(2),
+.md-typeset table tr th:nth-child(1):nth-last-child(1),
+.md-typeset table tr th:nth-child(1):nth-last-child(2) {
+  white-space: nowrap;
+}
+
+/* --- 3-column table: first AND second column nowrap --- */
+.md-typeset table tr td:nth-child(1):nth-last-child(2),
+.md-typeset table tr td:nth-child(2):nth-last-child(1),
+.md-typeset table tr th:nth-child(1):nth-last-child(2),
+.md-typeset table tr th:nth-child(2):nth-last-child(1) {
+  white-space: nowrap;
+}
+
