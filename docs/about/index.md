@@ -8,13 +8,13 @@ I built this site mainly to use as my notes. However, I wanted to build a public
 
 | **Section** | **Description** |
 | -------------- | ----------- | 
-| **[Offensive Security](../offense/index.md)** | **Offensive Security education, TTPs, Methodologies, Frameworks, and more!** |
-| **[Defensive Security](../defense/index.md)** | **Defensive Security education, TTPs, Methodologies, Frameworks, and more!** |
-| **[Core Competencies](../core/index.md)** | **Foundational skills used in both offensive and defensive security!** |
-| **[Systems & Internals](../sysint/index.md)** | **High-level dataflows/diagrams to low-level mechanics for services, protocols, operating systems, and more!** |
-| **[Research](../research/index.md)** | **POCs, CVEs, and other research by SH3LL or others!** |
-| **[Resources & References](../resource-ref/index.md)** | **Tool manuals, command cheatsheets, write-ups, resourceful blogs/KBs, and more!** |
-| **[Tags](../tags.md)** | **Global tag page grouped by tag.** |
+| <span class="nowrap">**[Offensive Security](../offense/index.md)**</span> | **Offensive Security education, TTPs, Methodologies, Frameworks, and more!** |
+| <span class="nowrap">**[Defensive Security](../defense/index.md)**</span> | **Defensive Security education, TTPs, Methodologies, Frameworks, and more!** |
+| <span class="nowrap">**[Core Competencies](../core/index.md)**</span> | **Foundational skills used in both offensive and defensive security!** |
+| <span class="nowrap">**[Systems & Internals](../sysint/index.md)**</span> | **High-level dataflows/diagrams to low-level mechanics for services, protocols, operating systems, and more!** |
+| <span class="nowrap">**[Research](../research/index.md)**</span> | **POCs, CVEs, and other research by SH3LL or others!** |
+| <span class="nowrap">**[Resources & References](../resource-ref/index.md)**</span> | **Tool manuals, command cheatsheets, write-ups, resourceful blogs/KBs, and more!** |
+| <span class="nowrap">**[Tags](../tags.md)**</span> | **Global tag page grouped by tag.** |
 
 ---
 
